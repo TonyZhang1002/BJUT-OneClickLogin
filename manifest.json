@@ -1,0 +1,11 @@
+{ 
+    "name" : "BJUT-OnClickLogin", //插件名称 
+    "version" : "1.0", //插件版本 
+    "manifest_version":2,
+    "background": { "scripts": ["background.js"] }, //插件后台处理文件 
+    
+    "browser_action": { 
+        "default_title" : "OneClick" //小图标按钮浮动标题 
+    }, 
+    "permissions" : [ "tabs", "http://*/*","notifications" ] //插件权限设置 
+} 
