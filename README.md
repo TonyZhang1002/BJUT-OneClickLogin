@@ -1,1 +1,2 @@
-README here
+README
+This is an easy chrome based extension.
